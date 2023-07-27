@@ -1,0 +1,89 @@
+.company-logo-name .company-logo{
+    width: 50px;
+    height: 38px;
+}
+.company-logo-name{
+    color: rgb(15, 165, 224);
+    font-weight: 600;
+    font-size: 26px;
+    font-family: "Microsoft Sans Serif";
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding-left: 60px;
+  
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.time{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+ 
+}
+.fa-clock{
+    font-size: 30px;
+    color: #ddbd65;
+}
+.email{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 16px;
+    
+    
+}
+.fa-envelope{
+    font-size: 30px;
+    color: #ddbd65;
+}
+.time-email{
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+   
+}
+.email-detail{
+    margin-left: 10px;
+}
+.info-detail{
+    margin-left: 10px;
+    line-height: 3px;
+    color: rgb(95, 94, 94) !important;
+}
+.info-detail p:last-child{
+    color: rgb(0, 0, 0)!important;
+    font-weight: 600;
+}
+nav{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+.nav-list{
+    display: flex;
+    align-items: center !important;
+    height: 100%;   
+    width: 100%;
+}
+.nav-list li a{
+    text-decoration: none !important;
+    color: rgb(189, 186, 186);
+    
+}
+.nav-list li{
+    list-style-type: none !important;
+    padding-left: 52px;
+}
+.landing-page{
+    background-image: url('../../assets/image/plant-money.png');
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    
+   
+}
