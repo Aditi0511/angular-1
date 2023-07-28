@@ -20,6 +20,72 @@
 
 .content {
     display: flex;
+    align-items: center;
     width: 80%;
     margin: auto;
+}
+.content img{
+    width: 411px;
+    height: 321px;
+    margin-top: 15px;
+}
+.content-text {
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.content-text h2{
+    padding-top: 10px;
+    margin: 0px;
+    
+}
+.content-text p{
+    margin: 0px;
+    padding-top: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.line{
+    width: 56px;
+    height: 2px;
+    background-color: rgb(238, 188, 63);
+    margin-top: 2px;
+}
+.btn-read{
+    background-color:  rgb(238, 188, 63);
+    color: white;
+    border: none;
+    width:140px;
+    padding: 7px 15px;
+    margin-top: 10px;
+}
+.services{
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services h1{
+    color: black;
+    text-align: center;
+    margin: 0px;
+}
+.services span{
+color:rgb(238, 188, 63);
+
+}
+.line-services{
+    width: 56px;
+    height: 2px;
+    background-color: rgb(238, 188, 63);
+    margin-top: 2px;
+    text-align: center;
+    
+}
+.row-card{
+    padding: 30px;
+ }
+
+.card{
+    border: none;
 }
