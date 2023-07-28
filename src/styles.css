@@ -1,6 +1,12 @@
-body{
+body {
     background-color: white;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     max-width: 100%;
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
 }

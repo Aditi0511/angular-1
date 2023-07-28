@@ -1,0 +1,22 @@
+nav {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center !important;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-list li a {
+    text-decoration: none !important;
+    color: rgb(189, 186, 186);
+}
+
+.nav-list li {
+    list-style-type: none !important;
+    padding-left: 52px;
+}
